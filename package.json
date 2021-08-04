@@ -1,0 +1,28 @@
+{
+  "name": "@zzf/shell",
+  "version": "1.0.1-1",
+  "description": "node脚本命令行",
+  "main": "index.js",
+  "bin": {
+    "zzf-shell": "bin/pkg.mjs",
+    "zzf-test": "bin/test.mjs"
+  },
+  "scripts": {
+    "pkg": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zzfn/shell.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/zzfn/shell/issues"
+  },
+  "homepage": "https://github.com/zzfn/shell#readme",
+  "dependencies": {
+    "execa": "^5.1.1",
+    "zx": "^2.0.0"
+  }
+}
